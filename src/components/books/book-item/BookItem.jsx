@@ -1,3 +1,5 @@
+import BookItemForm from './BookItemForm';
+
 import classes from './BookItem.module.css';
 
 const BookItem = (props) => {
@@ -10,7 +12,9 @@ const BookItem = (props) => {
         <div className={classes.description}>{props.description}</div>
         <div className={classes.price}>{price}</div>
       </div>
-      <div> {/* TODO: add quanity selection form */} </div>
+      <div>
+        <BookItemForm id={props.id} />
+      </div>
     </li>
   );
 };
