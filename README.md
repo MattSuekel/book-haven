@@ -6,8 +6,8 @@ Follow along with pdf
 
 - [x] Step 1: Project Setup & Folder Structure
 - [x] Step 2: Header Component
-- [ ] Step 3: Header Cart Button & Icon
-- [ ] Step 4: Book Catalog Components
+- [x] Step 3: Header Cart Button & Icon
+- [x] Step 4: Book Catalog Components
 - [ ] Step 5: Card Shell & BookItem Components
 - [ ] Step 6: Quantity Forms & Reusable Input
 - [ ] Step 7: Initial Cart Component

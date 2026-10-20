@@ -4,9 +4,11 @@ import { defineConfig, lazyPlugins } from 'vite-plus';
 // https://vite.dev/config/
 export default defineConfig({
   fmt: {
-    printWidth: 100,
+    printWidth: 80,
     singleQuote: true,
     semi: true,
+    bracketSpacing: true,
+    trailingComma: 'all',
     sortImports: true,
     sortPackageJson: true,
     ignorePatterns: ['dist/**'],
