@@ -8,7 +8,7 @@ Follow along with pdf
 - [x] Step 2: Header Component
 - [x] Step 3: Header Cart Button & Icon
 - [x] Step 4: Book Catalog Components
-- [ ] Step 5: Card Shell & BookItem Components
+- [x] Step 5: Card Shell & BookItem Components
 - [ ] Step 6: Quantity Forms & Reusable Input
 - [ ] Step 7: Initial Cart Component
 - [ ] Step 8: Modal with React Portals

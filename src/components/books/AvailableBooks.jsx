@@ -1,3 +1,6 @@
+import Card from '../ui/Card';
+import BookItem from './book-item/BookItem';
+
 import classes from './AvailableBooks.module.css';
 
 const DUMMY_BOOKS = [
@@ -29,12 +32,20 @@ const DUMMY_BOOKS = [
 
 const AvailableBooks = () => {
   const bookList = DUMMY_BOOKS.map((book) => (
-    <li key={book.id}>{book.name}</li>
+    <BookItem
+      id={book.id}
+      key={book.id}
+      name={book.name}
+      description={book.description}
+      price={book.price}
+    />
   ));
 
   return (
     <section className={classes.books}>
-      <ul>{bookList}</ul>
+      <Card>
+        <ul>{bookList}</ul>
+      </Card>
     </section>
   );
 };
