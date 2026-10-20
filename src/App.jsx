@@ -1,9 +1,11 @@
-import "./App.css";
+import Header from './components/layout/Header';
+
+import './App.css';
 
 function App() {
   return (
     <div>
-      <h2>Book Haven Setup</h2>
+      <Header />
     </div>
   );
 }

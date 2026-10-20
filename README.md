@@ -5,7 +5,7 @@ Follow along with pdf
 ## Checklist
 
 - [x] Step 1: Project Setup & Folder Structure
-- [ ] Step 2: Header Component
+- [x] Step 2: Header Component
 - [ ] Step 3: Header Cart Button & Icon
 - [ ] Step 4: Book Catalog Components
 - [ ] Step 5: Card Shell & BookItem Components
