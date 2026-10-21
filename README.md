@@ -13,7 +13,7 @@ Follow along with pdf
 - [x] Step 7: Initial Cart Component
 - [x] Step 8: Modal with React Portals
 - [x] Step 9: Cart Modal State
-- [ ] Step 10: Global State with React Context
+- [x] Step 10: Global State with React Context
 - [ ] Step 11: Consuming Context & `useReducer`
 - [ ] Step 12: `useRef`, `forwardRef` & Adding to Cart
 - [ ] Step 13: Dynamic Cart Items & Event Binding
