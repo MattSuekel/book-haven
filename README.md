@@ -10,8 +10,8 @@ Follow along with pdf
 - [x] Step 4: Book Catalog Components
 - [x] Step 5: Card Shell & BookItem Components
 - [x] Step 6: Quantity Forms & Reusable Input
-- [ ] Step 7: Initial Cart Component
-- [ ] Step 8: Modal with React Portals
+- [x] Step 7: Initial Cart Component
+- [x] Step 8: Modal with React Portals
 - [ ] Step 9: Cart Modal State
 - [ ] Step 10: Global State with React Context
 - [ ] Step 11: Consuming Context & `useReducer`
