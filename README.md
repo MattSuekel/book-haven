@@ -17,7 +17,7 @@ Follow along with pdf
 - [x] Step 11: Consuming Context & `useReducer`
 - [x] Step 12: `useRef`, `forwardRef` & Adding to Cart
 - [x] Step 13: Dynamic Cart Items & Event Binding
-- [ ] Step 14: Cart Reducer Grouping Logic
+- [x] Step 14: Cart Reducer Grouping Logic
 - [ ] Step 15: Item Removal & Quantity Decrement
 - [ ] Step 16: Button Animation with `useEffect`
 - [ ] Step 17: Fetching Books from Firebase
