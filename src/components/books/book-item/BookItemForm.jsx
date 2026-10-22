@@ -12,8 +12,8 @@ const BookItemForm = (props) => {
     event.preventDefault();
 
     const enteredAmount = amountInputRef.current.value;
-    const enteredAmountNumber = +enteredAmount;
 
+    const enteredAmountNumber = +enteredAmount;
     if (
       enteredAmount.trim().length === 0 ||
       enteredAmountNumber < 1 ||
@@ -22,8 +22,7 @@ const BookItemForm = (props) => {
       setAmountIsValid(false);
       return;
     }
-
-    props.onAddToCart(enteredAmountNubmer);
+    props.onAddToCart(enteredAmountNumber);
   };
 
   return (

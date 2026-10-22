@@ -14,9 +14,9 @@ Follow along with pdf
 - [x] Step 8: Modal with React Portals
 - [x] Step 9: Cart Modal State
 - [x] Step 10: Global State with React Context
-- [ ] Step 11: Consuming Context & `useReducer`
-- [ ] Step 12: `useRef`, `forwardRef` & Adding to Cart
-- [ ] Step 13: Dynamic Cart Items & Event Binding
+- [x] Step 11: Consuming Context & `useReducer`
+- [x] Step 12: `useRef`, `forwardRef` & Adding to Cart
+- [x] Step 13: Dynamic Cart Items & Event Binding
 - [ ] Step 14: Cart Reducer Grouping Logic
 - [ ] Step 15: Item Removal & Quantity Decrement
 - [ ] Step 16: Button Animation with `useEffect`
