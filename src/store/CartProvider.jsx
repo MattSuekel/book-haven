@@ -40,15 +40,14 @@ const cartReducer = (state, action) => {
     const existingCartItemIndex = state.items.findIndex(
       (item) => item.id === action.id,
     );
-
     const existingItem = state.items[existingCartItemIndex];
     const updatedTotalAmount = state.totalAmount - existingItem.price;
-
     let updatedItems;
-
-    if (existingItem.amout === 1) {
+    if (existingItem.amount === 1) {
+      // Remove item completely if last copy
       updatedItems = state.items.filter((item) => item.id !== action.id);
     } else {
+      // Decrement quantity by 1
       const updatedItem = {
         ...existingItem,
         amount: existingItem.amount - 1,
@@ -56,7 +55,6 @@ const cartReducer = (state, action) => {
       updatedItems = [...state.items];
       updatedItems[existingCartItemIndex] = updatedItem;
     }
-
     return {
       items: updatedItems,
       totalAmount: updatedTotalAmount,
