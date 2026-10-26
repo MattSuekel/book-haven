@@ -24,7 +24,7 @@ Follow along with pdf
 - [x] Step 18: Async Loading State
 - [x] Step 19: HTTP Error Handling
 - [x] Step 20: Checkout Form & Conditional Views
-- [ ] Step 21: Reading Checkout Inputs with `useRef`
-- [ ] Step 22: Form Validation & Error Feedback
+- [x] Step 21: Reading Checkout Inputs with `useRef`
+- [x] Step 22: Form Validation & Error Feedback
 - [ ] Step 23: Submitting Orders to Firebase (POST)
 - [ ] Step 24: Submission Feedback & Clearing Cart
