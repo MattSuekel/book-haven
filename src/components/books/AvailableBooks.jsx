@@ -7,6 +7,7 @@ import classes from './AvailableBooks.module.css';
 
 const AvailableBooks = () => {
   const [books, setBooks] = useState([]);
+  const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
     const fetchBooks = async () => {
@@ -27,10 +28,19 @@ const AvailableBooks = () => {
       }
 
       setBooks(loadedBooks);
+      setIsLoading(false);
     };
 
     fetchBooks();
   }, []);
+
+  if (isLoading) {
+    return (
+      <section className={classes.BooksLoading}>
+        <p>Loading books...</p>
+      </section>
+    );
+  }
 
   const bookList = books.map((book) => (
     <BookItem
