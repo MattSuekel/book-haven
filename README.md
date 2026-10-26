@@ -27,4 +27,4 @@ Follow along with pdf
 - [x] Step 21: Reading Checkout Inputs with `useRef`
 - [x] Step 22: Form Validation & Error Feedback
 - [x] Step 23: Submitting Orders to Firebase (POST)
-- [ ] Step 24: Submission Feedback & Clearing Cart
+- [x] Step 24: Submission Feedback & Clearing Cart
