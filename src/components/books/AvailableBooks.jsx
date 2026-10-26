@@ -1,37 +1,38 @@
+import { useState, useEffect } from 'react';
+
 import Card from '../ui/Card';
 import BookItem from './book-item/BookItem';
 
 import classes from './AvailableBooks.module.css';
 
-const DUMMY_BOOKS = [
-  {
-    id: 'b1',
-    name: 'The Great Gatsby',
-    description: 'A classic novel set in the Roaring Twenties.',
-    price: 14.99,
-  },
-  {
-    id: 'b2',
-    name: 'To Kill a Mockingbird',
-    description: 'A deeply moving story about justice and morality.',
-    price: 12.5,
-  },
-  {
-    id: 'b3',
-    name: '1984',
-    description: 'A compelling dystopian masterpiece.',
-    price: 10.99,
-  },
-  {
-    id: 'b4',
-    name: 'Pride and Prejudice',
-    description: 'A timeless romantic comedy of manners.',
-    price: 15.99,
-  },
-];
-
 const AvailableBooks = () => {
-  const bookList = DUMMY_BOOKS.map((book) => (
+  const [books, setBooks] = useState([]);
+
+  useEffect(() => {
+    const fetchBooks = async () => {
+      const response = await fetch(
+        'https://react-db-2fda0-default-rtdb.firebaseio.com/books.json',
+      );
+      const responseData = await response.json();
+
+      const loadedBooks = [];
+
+      for (const key in responseData) {
+        loadedBooks.push({
+          id: key,
+          name: responseData[key].name,
+          description: responseData[key].description,
+          price: responseData[key].price,
+        });
+      }
+
+      setBooks(loadedBooks);
+    };
+
+    fetchBooks();
+  }, []);
+
+  const bookList = books.map((book) => (
     <BookItem
       id={book.id}
       key={book.id}
