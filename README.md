@@ -22,7 +22,7 @@ Follow along with pdf
 - [x] Step 16: Button Animation with `useEffect`
 - [x] Step 17: Fetching Books from Firebase
 - [x] Step 18: Async Loading State
-- [] Step 19: HTTP Error Handling
+- [x] Step 19: HTTP Error Handling
 - [ ] Step 20: Checkout Form & Conditional Views
 - [ ] Step 21: Reading Checkout Inputs with `useRef`
 - [ ] Step 22: Form Validation & Error Feedback
